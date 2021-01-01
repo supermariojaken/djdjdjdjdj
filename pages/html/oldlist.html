@@ -13,7 +13,6 @@
 	<div>
 		<h1 style="margin:0"><img id="logo" src="../img/list_logo.png" alt="Wrapper Online: Remastered"/></h1>
 		<div id="headbuttons">
-			<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
 			<div id="char_dropdown" class="button_small">
 				<div>CREATE A CHARACTER</div>
 				<menu>
@@ -61,7 +60,7 @@
 	<a id="discordlink" href="https://discord.gg/yhGAetN">Discord Server</a>
 </footer>
 
-<form enctype='multipart/form-data' action='/go_full' method='post'>
+<form enctype='multipart/form-data' action='/upload movie' method='post'>
 	<input id='file' type="file" onchange="this.form.submit()" name='import' />
 </form>
 
